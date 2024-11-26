@@ -16,6 +16,7 @@ class User(Base):
 
     user_id: Mapped[int] = mapped_column(Integer, autoincrement=True, primary_key=True)
     username: Mapped[str] = mapped_column(String, unique=True, index=True)
+    name: Mapped[str] = mapped_column(String, nullable=False)
     hashed_password: Mapped[str] = mapped_column(String, nullable=False)
     email: Mapped[str] = mapped_column(String, unique=True, index=True)
     role: Mapped[UserRole] = mapped_column(Enum(UserRole), nullable=False)

@@ -9,6 +9,7 @@ class UserRole(str, Enum):
 
 class UserBase(BaseModel):
     username: str
+    name: str
     email: str
     role: UserRole
 

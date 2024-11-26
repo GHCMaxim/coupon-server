@@ -20,3 +20,7 @@ SessionLocal = sessionmaker(
     autocommit=False, autoflush=False, bind=engine, class_=AsyncSession
 )
 Base = declarative_base()
+
+from . import (
+    user,
+)
