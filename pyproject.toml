@@ -13,6 +13,9 @@ dependencies = [
     "datetime>=5.5",
     "requests>=2.32.3",
     "beautifulsoup4>=4.12.3",
+    "passlib>=1.7.4",
+    "python-jose>=3.3.0",
+    "argon2-cffi>=23.1.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

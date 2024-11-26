@@ -6,7 +6,7 @@ class CategoryBase(BaseModel):
 
 
 class CategoryCreate(CategoryBase):
-    pass
+    store_id: int
 
 
 class Category(CategoryBase):

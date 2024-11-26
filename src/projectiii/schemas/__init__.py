@@ -1,17 +1,25 @@
 from . import (
+    auth,
     category,
-    products,
-    salePrices,
-    saleTimes,
-    locations,
-    corporations,
+    chain,
+    coupon,
+    couponItem,
+    product,
+    shopperCoupon,
+    store,
+    storeCoupon,
+    user
 )
 
 __all__ = [
+    "auth",
     "category",
-    "products",
-    "salePrices",
-    "saleTimes",
-    "locations",
-    "corporations",
+    "chain",
+    "coupon",
+    "couponItem",
+    "product",
+    "shopperCoupon",
+    "store",
+    "storeCoupon",
+    "user"
 ]
