@@ -22,5 +22,6 @@ SessionLocal = sessionmaker(
 Base = declarative_base()
 
 from . import (
+    category,
     user,
 )
