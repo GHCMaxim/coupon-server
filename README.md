@@ -1,3 +1,3 @@
-# projectiii
+# coupon-server
 
-Describe your project here.
+A backend server written for a coupon management system for Project III.
