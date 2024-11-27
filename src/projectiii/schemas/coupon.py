@@ -10,6 +10,7 @@ class CouponType(str, Enum):
 
 class CouponBase(BaseModel):
     chain_id: int
+    coupon_name: str
     is_chain_wide: bool
     coupon_type: CouponType
     description: str

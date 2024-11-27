@@ -18,6 +18,7 @@ class Coupon(Base):
     coupon_id: Mapped[int] = mapped_column(
         Integer, autoincrement=True, primary_key=True
     )
+    coupon_name: Mapped[str] = mapped_column(String, nullable=False)
     chain_id: Mapped[int] = mapped_column(Integer, ForeignKey("chains.chain_id"))
     is_chain_wide: Mapped[bool] = mapped_column(Boolean, default=True)
     coupon_type: Mapped[CouponType] = mapped_column(Enum(CouponType), nullable=False)
